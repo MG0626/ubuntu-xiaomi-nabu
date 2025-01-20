@@ -1,4 +1,4 @@
-git clone https://github.com/chiyuki0325/sm8150-mainline --branch=6.12-wip --depth 1 linux
+git clone https://gitlab.postmarketos.org/panpanpanpan/sm8150-mainline.git --branch=sm8150-6.13-rc4 --depth 1 linux
 cd linux
 make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- defconfig sm8150.config
 make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
